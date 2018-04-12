@@ -1,0 +1,5 @@
+# these lines under the rest of the defines in the wp-config.php file.
+# this fixes the issue with css not loading in wordpress
+
+define('WP_HOME','/');
+define('WP_SITEURL','/');

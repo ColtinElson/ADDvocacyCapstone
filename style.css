@@ -1,0 +1,52 @@
+/*
+Theme Name: ADDvocacy
+Description: Theme for Capstone.
+Version: 1.0
+Author: Ian Farrell, Keenan Naugle
+Author URI: Your website address.
+*/
+
+/* General body styles */
+body {
+    padding-top: 54px;
+    background-color: rgb(242, 123, 4);
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+/* Navigation bar styles */
+nav.navbar {
+    background-color: rgb(56, 0, 0) !important;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: rgb(56, 0, 0) !important;
+}
+
+.contactLink {
+    color: rgb(250, 1218, 63) !important;
+    font-weight: 600;
+}
+
+.fa {
+    color: rgb(238, 238, 238);
+}
+
+.fa:hover {
+    color: rgb(250, 1218, 63);
+}
+
+#socialMediaIconGroup {
+    float: right;
+}
+
+#linkedInIcon {
+    margin-right: 20px;
+}
+
