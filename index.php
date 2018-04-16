@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php wp_header(); ?>
 <!-- Page Content -->
 <div class="container">
     <!-- Introduction Row -->
@@ -24,7 +24,8 @@
             </div>
             <div class="carousel-item">
                 <img class="d-block img-fluid" src="<?php echo get_template_directory_uri() . '/images/employers.jpg'?>" alt="Third slide">
-            </div><div class="carousel-item">
+            </div>
+            <div class="carousel-item">
                 <img class="d-block img-fluid" src="<?php echo get_template_directory_uri() . '/images/help.jpg'?>" alt="Fourth slide">
             </div>
         </div>
@@ -153,5 +154,5 @@
     <br />
 </div>
 
-<?php get_footer(); ?>
+<?php wp_footer(); ?>
 </body>
